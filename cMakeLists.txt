@@ -1,0 +1,4 @@
+set(COMPONENT_SRCDIRS . ./util ./util/font)
+set(COMPONENT_ADD_INCLUDEDIRS . ./include ./util)
+
+register_component()

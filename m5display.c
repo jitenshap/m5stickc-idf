@@ -6,7 +6,9 @@
  */
 
 #include "m5display.h"
-
+#include "spi_master_lobo.h"
+#include "tftspi.h"
+#include "tft.h"
 static const char * TAG = "m5display";
 
 spi_lobo_device_handle_t m5display_spi;

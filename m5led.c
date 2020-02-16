@@ -6,6 +6,7 @@
  */
 
 #include "m5led.h"
+#include "driver/gpio.h"
 
 static const char * TAG = "m5led";
 

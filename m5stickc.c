@@ -6,7 +6,6 @@
  */
 
 #include "m5stickc.h"
-
 static const char *TAG = "m5stickc";
 
 esp_event_loop_handle_t m5_event_loop;

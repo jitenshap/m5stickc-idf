@@ -6,7 +6,7 @@
  */
 
 #include "m5button.h"
-
+#include "driver/gpio.h"
 static const char * TAG = "m5button";
 
 ESP_EVENT_DEFINE_BASE(M5BUTTON_A_EVENT_BASE);
